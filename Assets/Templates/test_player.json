@@ -1,0 +1,29 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/viking/Dancing.model",
+            "Animations": [
+                "../../Assets/Animations/viking/mutant_idle.animset",
+                 "../../Assets/Animations/viking/mutant_idle.animset"
+            ]
+        },
+        "AnimatorComponent":
+        {
+
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Hull",
+                "HalfExtents": [ 0.5, 1.0, 0.5 ],
+                "Origin": [ 0.0, -1.0, 0.0 ]
+
+            }
+        },
+        "RigidBodyComponent": {
+            "Mass": 2.0
+        }
+    }
+}

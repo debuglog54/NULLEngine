@@ -1,0 +1,18 @@
+{
+    "Components": { 
+        "TransformComponent": {
+            "Scale": [ 10.0, 10.0, 10.0 ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/coin/coin.model",
+            "Animations": []
+        },
+           "CoinComponent": {},
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Box",
+                "HalfExtents": [ 1.0, 1.0, 1.0 ]
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+-scale 0.01 ../../Assets/Models/mutant/Mutant.fbx ../../Assets/Models/mutant/Mutant.model
+-scale 0.01 ../../Assets/Models/Viking/character.fbx ../../Assets/Models/Viking/character.model
+-scale 0.01 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Models/Viking/Dancing.model
+
+Anim Only
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_walking.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_swiping.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_run.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_jumping.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_flexing_muscles.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_dying.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\mutant_idle.fbx
+
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Jump.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Run_Forward.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Run_Forward2.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Walk_Forward.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Idle2.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Attack1.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Attack2.fbx
+-scale 0.01 -animOnly 1 ../../Assets/Models/Viking/Dancing.fbx ../../Assets/Animations\Viking\New\Standing_Attack3.fbx
+
+
+
+-scale 0.01 ../../Assets/Models/chest/chest_01.fbx ../../Assets/Models/chest/chest_01.model
+-scale 1.00 ../../Assets/Models/crate/Crate.fbx ../../Assets/Models/crate/crate.model
+-scale 0.01 ../../Assets/Models/lamp/WoodenLamp.fbx ../../Assets/Models/lamp/WoodenLamp.model
+-scale 0.01 ../../Assets/Models/table/table.fbx ../../Assets/Models/table/table.model
+-scale 0.01 ../../Assets/Models/chair/Chair.fbx ../../Assets/Models/chair/chair.model
+-scale 0.01 ../../Assets/Models/barrel/barrel.FBX ../../Assets/Models/barrel/barrel.model
+-scale 0.01 ../../Assets/Models/door/Medieval_Door.fbx ../../Assets/Models/door/door.model
+-scale 0.01 ../../Assets/Models/coin/Coin.fbx ../../Assets/Models/coin/coin.model
+
+
+

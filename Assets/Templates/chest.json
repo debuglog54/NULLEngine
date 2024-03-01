@@ -1,0 +1,27 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Rotation": [
+                -0.699999988079071,
+                0.0,
+                -0.0,
+                -0.83907151222229
+            ],
+            "Scale": [
+                0.3,
+                0.3,
+                0.3
+            ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/chest/chest_01.model",
+            "Animations": []
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Box",
+                "HalfExtents": [ 2.0, 1.0, 2.0 ]
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "Name": "Final_Level",
+    "Capacity": 100,
+    "Physics": {
+        "Gravity": [ 0.0, -9.81, 0.0 ]
+    },
+    "Services": {
+        "CameraService": {
+
+        },
+        "RenderService": {
+            "DirectionalLight": [ 1.0, -1.0, 1.0 ]
+        }
+    },
+    "GameObjects": {
+        "TestPlayer": {
+            "Template": "../../Assets/Templates/final_player.json",
+            "Position": [ 0.0, 2.0, -2.0 ]
+        },
+        "MainCamera": {
+            "Template": "../../Assets/Templates/fps_camera.json"
+        },
+        "Road1": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "Road2": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ -10.0, 0.0, 0.0 ]
+        },
+        "Road3": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ 10.0, 0.0, 0.0 ]
+        },
+        "Crate6": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -14.149999618530273,
+                0.0,
+                -1.5
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        }
+    }
+}

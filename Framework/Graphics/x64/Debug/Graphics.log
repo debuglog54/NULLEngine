@@ -1,0 +1,59 @@
+﻿  Precompiled.cpp
+  AnimationUtil.cpp
+  Animation.cpp
+  AnimationBuilder.cpp
+  Animator.cpp
+  BlendState.cpp
+  Camera.cpp
+  ConstantBuffer.cpp
+  DebugUI.cpp
+  GraphicsSystem.cpp
+  ImprovedStandardEffect.cpp
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ImprovedStandardEffect.cpp(177,72): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ImprovedStandardEffect.cpp(189,90): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ImprovedStandardEffect.cpp(191,91): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ImprovedStandardEffect.cpp(193,87): warning C4305: 'argument': truncation from 'double' to 'float'
+  MeshBuffer.cpp
+  MeshBuilder.cpp
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(79,43): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(240,20): warning C4018: '<=': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(244,21): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(267,20): warning C4018: '<=': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(272,21): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(324,20): warning C4018: '<=': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(329,21): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(334,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(372,20): warning C4018: '<=': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(377,21): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\MeshBuilder.cpp(382,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ModelIO.cpp
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(12,49): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(19,40): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(26,38): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(264,51): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(275,57): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(316,25): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(322,25): warning C4018: '<': signed/unsigned mismatch
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(380,54): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\ModelIO.cpp(390,62): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+  ModelManager.cpp
+  PixelShader.cpp
+  PostProccessingEffect.cpp
+  RenderObject.cpp
+  RenderTarget.cpp
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\RenderTarget.cpp(82,77): warning C4244: 'argument': conversion from 'float' to 'UINT8', possible loss of data
+  Sampler.cpp
+  ShadowEffect.cpp
+  Generating Code...
+  Compiling...
+  SimpleDraw.cpp
+  SimpleEffect.cpp
+  StandardEffect.cpp
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\StandardEffect.cpp(180,76): warning C4305: 'argument': truncation from 'double' to 'float'
+  Texture.cpp
+  TextureManager.cpp
+  ToonEffect.cpp
+  VertexShader.cpp
+  Generating Code...
+G:\Github_Repo\C++\NULLEngine\Framework\Graphics\Src\Texture.cpp(81): warning C4715: 'NULLEngine::Graphics::Texture::GetDXGIFormat': not all control paths return a value
+  Graphics.vcxproj -> G:\Github_Repo\C++\NULLEngine\x64\Debug\Graphics.lib

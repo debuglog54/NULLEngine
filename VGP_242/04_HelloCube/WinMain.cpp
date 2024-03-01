@@ -1,0 +1,17 @@
+#include <NULLEngine/Inc/NULLEngine.h>
+#include "GameState.h"
+
+enum class States :size_t
+{
+    GameState = 0,
+};
+
+int WINAPI WinMain(HINSTANCE instance, HINSTANCE, LPSTR, int)
+{
+    NULLEngine::App& raidShadowLegends = NULLEngine::MainApp();
+    raidShadowLegends.AddState<GameState>((size_t)States::GameState);
+
+    raidShadowLegends.Run();
+    
+    return 0;
+}

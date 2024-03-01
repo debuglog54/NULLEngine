@@ -1,0 +1,22 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Scale": [ 250.0, 250.0, 250.0 ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/crate/crate_dark.model",
+            "Animations": []
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Hull",
+                "HalfExtents": [ 0.75, 0.75, 0.75 ],
+                "Origin": [ 0.0, -0.75, 0.0 ]
+            }
+        },
+        "RigidBodyComponent": {
+            "Mass": 0.0,
+            "Offset": [ 0.75, 12.75, 0.75 ]
+        }
+    }
+}

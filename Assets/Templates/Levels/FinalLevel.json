@@ -1,0 +1,809 @@
+{
+    "Name": "Final_Level",
+    "Capacity": 100,
+    "Physics": {
+        "Gravity": [ 0.0, -9.81, 0.0 ]
+    },
+    "Services": {
+        "CameraService": {
+
+        },
+        "RenderService": {
+            "DirectionalLight": [ 1.0, -1.0, 1.0 ]
+        }
+    },
+    "GameObjects": {
+        "TestPlayer": {
+            "Template": "../../Assets/Templates/final_player.json",
+            "Position": [ 0.0, 2.0, -2.0 ],
+            "Scale": [ 2.0, 2.0, 2.0 ]
+        },
+        "MainCamera": {
+            "Template": "../../Assets/Templates/side_scroll_camera.json"
+        },
+        "Road1": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "Road2": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ -10.0, 0.0, 0.0 ]
+        },
+        "Road3": {
+            "Template": "../../Assets/Templates/road.json",
+            "Position": [ 10.0, 0.0, 0.0 ]
+        },
+        "Wall1": {
+            "Template": "../../Assets/Templates/wall.json",
+            "Position": [
+                0.0,
+                7.019999980926514,
+                4.980000019073486
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Wall2": {
+            "Template": "../../Assets/Templates/wall.json",
+            "Position": [
+                10.0,
+                7.019999980926514,
+                4.980000019073486
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Wall3": {
+            "Template": "../../Assets/Templates/wall.json",
+            "Position": [
+                -10.0,
+                7.019999980926514,
+                4.980000019073486
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall1": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -10.0,
+                -7.099999904632568,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall2": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                0.0,
+                -7.099999904632568,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall3": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                10.0,
+                -7.019999980926514,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall4": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -20.0,
+                -7.099999904632568,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall5": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -30.0,
+                -7.099999904632568,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall6": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -20.0,
+                7.019999980926514,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall7": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -30.0,
+                7.019999980926514,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall8": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -30.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall9": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -20.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall10": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -30.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall1": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                -10.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall2": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                0.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall3": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                10.0,
+                21.1,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWallRotated1": {
+            "Template": "../../Assets/Templates/bottom_wall_rotated.json",
+            "Position": [
+                -14.96,
+                7.14,
+                -0.1
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                -1,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                2.0,
+                1.0
+            ]
+        },
+        "BottomWallRotated2": {
+            "Template": "../../Assets/Templates/bottom_wall_rotated.json",
+            "Position": [
+                14.9399995803833,
+                7.139999866485596,
+                0.0
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                2.0,
+                1.0
+            ]
+        },
+        "BottomWall4": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                19.979999542236328,
+                -7.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall5": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                19.979999542236328,
+                7.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall6": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                19.979999542236328,
+                21.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall7": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                30.0,
+                -7.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall8": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                30.0,
+                7.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "BottomWall9": {
+            "Template": "../../Assets/Templates/bottom_wall.json",
+            "Position": [
+                30.0,
+                21.010000228881836,
+                -4.920000076293945
+            ],
+            "Rotation": [
+                -0.7099999785423279,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Ceiling1": {
+            "Template": "../../Assets/Templates/ceiling.json",
+            "Position": [ -10.0, 14.0, 0.0 ]
+        },
+        "Ceiling2": {
+            "Template": "../../Assets/Templates/ceiling.json",
+            "Position": [ 0.0, 14.0, 0.0 ]
+        },
+        "Ceiling3": {
+            "Template": "../../Assets/Templates/ceiling.json",
+            "Position": [ 10.0, 14.0, 0.0 ]
+        },
+        "Chest": {
+            "Template": "../../Assets/Templates/chest.json",
+            "Position": [
+                -5.559999942779541,
+                0.0,
+                2.4100000858306885
+            ]
+        },
+        "Crate1": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -13.430000305175781,
+                0.019999999552965164,
+                -3.5799999237060547
+            ],
+            "Rotation": [
+                0.0,
+                -0.47999998927116394,
+                0.0,
+                1.0
+            ]
+        },
+        "Crate2": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -14.150,
+                0.0,
+                4.0
+            ]
+        },
+        "Crate3": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -12.270000457763672,
+                0.0,
+                -1.5
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "Crate4": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -14.149999618530273,
+                1.600000023841858,
+                -1.5
+            ],
+            "Rotation": [
+                0.0,
+                -0.07999999821186066,
+                0.0,
+                1.0
+            ]
+        },
+        "Crate5": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -10.59000015258789,
+                0.0,
+                3.1700000762939453
+            ],
+            "Rotation": [
+                0.0,
+                0.23999999463558197,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                250.0,
+                250.0,
+                250.0
+            ]
+        },
+        "Crate6": {
+            "Template": "../../Assets/Templates/crate_dark.json",
+            "Position": [
+                -14.149999618530273,
+                0.0,
+                -1.5
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "Table": {
+            "Template": "../../Assets/Templates/table.json",
+            "Position": [
+                7.010000228881836,
+                -0.07999999821186066,
+                2.2300000190734863
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                75.0,
+                75.0,
+                75.0
+            ]
+        },
+        "Chair1": {
+            "Template": "../../Assets/Templates/chair.json",
+            "Position": [
+                3.7899999618530273,
+                0.019999999552965164,
+                2.0999999046325684
+            ],
+            "Rotation": [
+                0.699999988079071,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                40.0,
+                40.0,
+                40.0
+            ]
+        },
+        "Chair2": {
+            "Template": "../../Assets/Templates/chair.json",
+            "Position": [
+                11.489999771118164,
+                0.47999998927116394,
+                2.690000057220459
+            ],
+            "Rotation": [
+                0.0,
+                0.38999998569488525,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                40.0,
+                40.0,
+                40.0
+            ]
+        },
+        "Barrel": {
+            "Template": "../../Assets/Templates/barrel.json",
+            "Position": [
+                13.829999923706055,
+                1.3700000047683716,
+                3.2799999713897705
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "Barrel2": {
+            "Template": "../../Assets/Templates/barrel.json",
+            "Position": [
+                0.8700000047683716,
+                1.3700000047683716,
+                3.430000066757202
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "Barrel3": {
+            "Template": "../../Assets/Templates/barrel.json",
+            "Position": [
+                13.829999923706055,
+                1.3700000047683716,
+                0.949999988079071
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "Barrel4": {
+            "Template": "../../Assets/Templates/barrel.json",
+            "Position": [
+                13.890000343322754,
+                1.399999976158142,
+                -3.559999942779541
+            ],
+            "Rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "Scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        }
+        ,
+        "Coin1": {
+            "Template": "../../Assets/Templates/coin.json",
+              "Position": [
+                    5,
+                    1.0399999618530273,
+                    -2.240000009536743
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    125.0,
+                    125.0,
+                    125.0
+                ]
+        }
+        ,
+        "Coin2": {
+            "Template": "../../Assets/Templates/coin.json",
+              "Position": [
+                    7,
+                    1.0399999618530273,
+                    -2.240000009536743
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    125.0,
+                    125.0,
+                    125.0
+                ]
+        }
+        ,
+        "Coin3": {
+            "Template": "../../Assets/Templates/coin.json",
+              "Position": [
+                    9,
+                    1.0399999618530273,
+                    -2.240000009536743
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    125.0,
+                    125.0,
+                    125.0
+                ]
+        }
+        ,
+        "Coin4": {
+            "Template": "../../Assets/Templates/coin.json",
+                 "Position": [
+                    -14.180000305175781,
+                    3.009999990463257,
+                    -1.7699999809265137
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    125.0,
+                    125.0,
+                    125.0
+                ]
+        }
+    }
+}

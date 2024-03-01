@@ -1,0 +1,8 @@
+﻿G:\Github_Repo\C++\NULLEngine\VSProps\EngineLib.props(4,5): warning MSB4011: "G:\Github_Repo\C++\NULLEngine\VSProps\Common\Common.props" cannot be imported again. It was already imported at "G:\Github_Repo\C++\NULLEngine\Framework\Core\Core.vcxproj (76,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Precompiled.cpp
+  BlockAllocator.cpp
+  TimeUtil.cpp
+  Window.cpp
+  WindowMessageHandler.cpp
+  Generating Code...
+  Core.vcxproj -> G:\Github_Repo\C++\NULLEngine\x64\Debug\Core.lib

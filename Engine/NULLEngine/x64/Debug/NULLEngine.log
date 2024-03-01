@@ -1,0 +1,25 @@
+﻿  Precompiled.cpp
+  AnimatorComponent.cpp
+  App.cpp
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\App.cpp(52,9): warning C4838: conversion from 'const int' to 'uint32_t' requires a narrowing conversion
+  CameraComponent.cpp
+  CameraService.cpp
+  ColliderComponent.cpp
+  FPSCameraControllerComponent.cpp
+  GameObject.cpp
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\GameObject.cpp(73,74): warning C4267: 'argument': conversion from 'size_t' to 'rapidjson::SizeType', possible loss of data
+  GameObjectFactory.cpp
+  GameWorld.cpp
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\GameWorld.cpp(192,5): warning C4477: 'snprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\GameWorld.cpp(331,5): warning C4477: 'snprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  MeshComponent.cpp
+  ModelComponent.cpp
+  NULLEngine.cpp
+  RenderService.cpp
+  RigidBodyComponent.cpp
+  TransformComponent.cpp
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\TransformComponent.cpp(21,60): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\TransformComponent.cpp(22,61): warning C4305: 'argument': truncation from 'double' to 'float'
+G:\Github_Repo\C++\NULLEngine\Engine\NULLEngine\Src\TransformComponent.cpp(23,55): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  NULLEngine.vcxproj -> G:\Github_Repo\C++\NULLEngine\x64\Debug\NULLEngine.lib

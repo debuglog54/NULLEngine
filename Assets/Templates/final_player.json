@@ -1,0 +1,41 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Position": [ 0.0, 0.0, 0.0 ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/viking/Dancing.model",
+            "Animations": [
+                "../../Assets/Animations/viking/mutant_idle.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Idle2.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Walk_Forward.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Run_Forward.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Run_Forward2.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Jump.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Attack1.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Attack2.animset",
+                 "../../Assets/Animations/Viking/New/Standing_Attack3.animset"
+            ]
+        },
+        "AnimatorComponent":
+        {
+
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Hull",
+                "HalfExtents": [ 0.5, 2.0, 0.5 ],
+                "Origin": [ 0.0, -2.0, 0.0 ]
+            }
+        },
+        "RigidBodyComponent": {
+            "Mass": 2.0
+        },
+        "PlayerControllerComponent": {
+           
+        },
+        "PlayerInputControllerComponent": {
+           
+        }
+    }
+}

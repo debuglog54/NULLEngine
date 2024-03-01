@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CustomComponents">
+      <UniqueIdentifier>{47ce0284-0053-4ce6-9e83-da04edbfad45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomComponents\Inc">
+      <UniqueIdentifier>{e71b86f2-a730-455a-aa53-3d830442c4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomComponents\Src">
+      <UniqueIdentifier>{5510925b-925f-4e77-aba6-6b7a5dd0cfdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponents\PlayerInputControllerComponent.cpp">
+      <Filter>CustomComponents\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponents\PlayerControllerComponent.cpp">
+      <Filter>CustomComponents\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponents\GameManagerService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponents\SideScrollCameraComponent.cpp">
+      <Filter>CustomComponents\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomComponents\CoinComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\PlayerInputControllerComponent.h">
+      <Filter>CustomComponents\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\PlayerControllerComponent.h">
+      <Filter>CustomComponents\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\TypeIds.h">
+      <Filter>CustomComponents\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\GameManagerService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\SideScrollCameraComponent.h">
+      <Filter>CustomComponents\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomComponents\CoinComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿  CoinComponent.cpp
+  GameManagerService.cpp
+G:\Github_Repo\C++\NULLEngine\VGP336\25_FinalProject\CustomComponents\GameManagerService.cpp(43,17): warning C4553: '==': result of expression not used; did you intend '='?
+  PlayerControllerComponent.cpp
+G:\Github_Repo\C++\NULLEngine\VGP336\25_FinalProject\CustomComponents\PlayerControllerComponent.cpp(12,66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  PlayerInputControllerComponent.cpp
+  SideScrollCameraComponent.cpp
+  GameState.cpp
+  WinMain.cpp
+  Generating Code...
+  25_FinalProject.vcxproj -> G:\Github_Repo\C++\NULLEngine\x64\Debug\25_FinalProject.exe

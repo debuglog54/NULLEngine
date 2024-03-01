@@ -1,0 +1,8 @@
+﻿  Precompiled.cpp
+  CollisionShape.cpp
+  PhysicsDebugDrawer.cpp
+  PhysicsWorld.cpp
+  RigidBody.cpp
+  Generating Code...
+G:\Github_Repo\C++\NULLEngine\Framework\Physics\Src\RigidBody.cpp(75): warning C4172: returning address of local variable or temporary: linearVelocity
+  Physics.vcxproj -> G:\Github_Repo\C++\NULLEngine\x64\Debug\Physics.lib

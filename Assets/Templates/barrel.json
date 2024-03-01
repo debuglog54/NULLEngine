@@ -1,0 +1,17 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Scale": [ 250.0, 250.0, 250.0 ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/barrel/barrel.model",
+            "Animations": []
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Box",
+                "HalfExtents": [ 2.0, 1.0, 2.0 ]
+            }
+        }
+    }
+}

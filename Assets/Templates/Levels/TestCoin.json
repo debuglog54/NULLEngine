@@ -1,0 +1,39 @@
+{
+    "Name": "Final_Level",
+    "Capacity": 100,
+    "Physics": {
+        "Gravity": [ 0.0, -9.81, 0.0 ]
+    },
+    "Services": {
+        "CameraService": {
+
+        },
+        "RenderService": {
+            "DirectionalLight": [ 1.0, -1.0, 1.0 ]
+        }
+    },
+    "GameObjects": {
+        "MainCamera": {
+            "Template": "../../Assets/Templates/fps_camera.json"
+        },
+        "Coin3": {
+            "Template": "../../Assets/Templates/coin.json",
+              "Position": [
+                    9,
+                    1.0399999618530273,
+                    -2.240000009536743
+                ],
+                "Rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "Scale": [
+                    125.0,
+                    125.0,
+                    125.0
+                ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Components": {
+        "CameraComponent": {
+        },
+        "SideScrollCameraComponent": {
+            "MoveSpeed": 2.0,
+            "TurnSpeed": 0.13
+        }
+    }
+}

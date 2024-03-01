@@ -1,0 +1,27 @@
+{
+    "Components": {
+        "TransformComponent": {
+            "Rotation": [
+                -0.699999988079071,
+                0.0,
+                -0.0,
+                -0.83907151222229
+            ],
+            "Scale": [
+                150,
+                150,
+                150
+            ]
+        },
+        "ModelComponent": {
+            "FileName": "../../Assets/Models/door/door.model",
+            "Animations": []
+        },
+        "ColliderComponent": {
+            "Shape": {
+                "Type": "Box",
+                "HalfExtents": [ 2.0, 1.0, 2.0 ]
+            }
+        }
+    }
+}
